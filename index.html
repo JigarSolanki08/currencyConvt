@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/29719fa627.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+       
+  
+    <div class="container">
+
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
+
+        <h1>Currency Converter</h1>
+        <div class="amt">
+            <p>Enter Amount</p>
+            <input type="text" class="enteramt" name="amount" value="100">
+        </div>
+        <div class="ccontainer">
+            <div class="from">
+                <p><b>From</b></p>
+                <img src="https://flagsapi.com/US/flat/64.png" alt="countryFlag">
+                <div class="dropdown">
+                    <select name="from" >
+                    </select>
+                </div>
+            </div>
+            <i class='fas fa-exchange-alt' style='font-size:24px'></i>
+            <div class="to">
+                <p><b>To</b></p>
+                <img src="https://flagsapi.com/IN/flat/64.png" alt="countryFlag">
+                <div class="dropdown">
+                    <select name="to" >
+                    </select>
+                </div>
+            </div>
+            
+        </div>
+        <div id="convt"></div>
+        <button id="btn"><b>Get Exchange Rate</b></button>
+       
+    </div>
+   
+
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
+  
+</body>
+</html>
